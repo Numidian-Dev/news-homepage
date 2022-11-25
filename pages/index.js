@@ -5,25 +5,28 @@ import TopArticle from "../components/topArticle";
 
 export default function Home() {
   return (
-    <main>
+    <html lang="en">
       <Head>
         <link rel="shortcut icon" href="/favicon/favicon-32x32.png" />
+        <title>Homepage</title>
       </Head>
-      <Nav />
-      <Spotlight />
-      <TopArticle />
-      <div className="attribution">
-        Challenge by{" "}
-        <a
-          href="https://www.frontendmentor.io?ref=challenge"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {" "}
-          Frontend Mentor{" "}
-        </a>
-        . Coded by <a href="#">Kutami</a>.
-      </div>
-    </main>
+      <main>
+        <Nav />
+        <Spotlight />
+        <TopArticle />
+        <div className="attribution">
+          Challenge by{" "}
+          <a
+            href="https://www.frontendmentor.io?ref=challenge"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {" "}
+            Frontend Mentor{" "}
+          </a>
+          . Coded by <a href="#">Kutami</a>.
+        </div>
+      </main>
+    </html>
   );
 }
