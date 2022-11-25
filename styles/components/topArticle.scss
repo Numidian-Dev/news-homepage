@@ -1,0 +1,88 @@
+.top-article {
+    display: flex;
+
+    margin-top: 55px;
+    margin: 55px 0 50px;
+
+    .container-top {
+        display: flex;
+        justify-content: space-between;
+
+        .top-img {
+            background-color: gainsboro;
+            width: 120px;
+            height: 110px;
+            margin-right: 20px;
+            position: relative;
+        }
+        .top {
+            h1 {
+                font-weight: bold;
+                color: $Grayishblue;
+            }
+            h2 {
+                font-weight: bold;
+                color: $Verydarkblue;
+                font-size: 1.1rem;
+                margin: 10px 0px 10px;
+                cursor: pointer;
+                &:hover {
+                    color: $Softorange;
+                }
+            }
+            p {
+                width: 70%;
+                line-height: 1.5;
+                font-size: 1rem;
+                color: $Darkgrayishblue;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .top-article {
+        display: block;
+
+        margin-top: 55px;
+        margin: 55px 0 20px;
+
+        .container-top {
+            display: flex;
+            justify-content: space-between;
+
+            .top-img {
+                background-color: gainsboro;
+                width: 130px;
+                height: 105px;
+                margin-right: 20px;
+                position: relative;
+            }
+            .top {
+                margin-bottom: 30px;
+
+                width: 100%;
+                h1 {
+                    font-weight: bold;
+                    color: $Grayishblue;
+                }
+                h2 {
+                    font-weight: bold;
+                    color: $Verydarkblue;
+                    font-size: 1.1rem;
+                    margin: 7px 0px 7px;
+                    cursor: pointer;
+                    &:hover {
+                        color: $Softorange;
+                    }
+                }
+                p {
+                    width: 100%;
+
+                    font-size: 0.9rem;
+                    color: $Darkgrayishblue;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,42 @@
+//font
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
+$roboto: "Roboto", sans-serif;
+$inter: "Inter", sans-serif;
+//colors
+$Softorange: hsl(35, 77%, 62%);
+$Softred: hsl(5, 85%, 63%);
+
+$Offwhite: hsl(36, 100%, 99%);
+$Grayishblue: hsl(233, 8%, 79%);
+$Darkgrayishblue: hsl(236, 13%, 42%);
+$Verydarkblue: hsl(240, 100%, 5%);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $inter;
+    font-size: 15px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+main {
+    width: 85%;
+    margin: auto;
+}
+
+li {
+    list-style: none;
+}
